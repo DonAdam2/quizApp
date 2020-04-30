@@ -52,10 +52,12 @@ button[disabled] {
 .image-wrapper {
   text-align: center;
   margin: 20px 0;
+  max-width: 300px;
+  margin: 0 auto;
 }
 
 img {
-  max-width: 300px;
+  width: 100%;
 }
 
 .status {
