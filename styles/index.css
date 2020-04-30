@@ -1,0 +1,85 @@
+/* loader styles */
+@import './loader.css';
+/* form styles */
+@import './form.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+h1,
+h3 {
+  text-align: center;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+.tab {
+  display: none;
+}
+
+button {
+  background-color: #4caf50;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:disabled,
+button[disabled] {
+  border: 1px solid #999999;
+  background-color: #cccccc;
+  color: #666666;
+  cursor: not-allowed;
+}
+
+.image-wrapper {
+  text-align: center;
+  margin: 20px 0;
+}
+
+img {
+  max-width: 300px;
+}
+
+.status {
+  color: #ffffff;
+  padding: 0.3rem 0.5rem;
+  font-size: 14px;
+  text-transform: uppercase;
+  border-radius: 5px;
+}
+
+.success {
+  background-color: #00c853;
+}
+
+.danger {
+  background-color: #e53935;
+  margin-bottom: 15px;
+}
+
+.default {
+  background-color: #999999;
+}
+
+.chosen-container {
+  width: 100% !important;
+  margin: 20px 0;
+}
