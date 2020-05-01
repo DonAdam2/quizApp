@@ -166,7 +166,7 @@ const renderFinalResult = () => {
     }
   }
 
-  form.innerHTML += `<h3><span class="status default">score: ${score}%</span></h3>`;
+  form.innerHTML += `<h3><span class="status default">score: ${result}%</span></h3>`;
 
   form.innerHTML += renderQuizeHeader({
     title: resultInfo.title,

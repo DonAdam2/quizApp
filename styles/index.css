@@ -51,9 +51,8 @@ button[disabled] {
 
 .image-wrapper {
   text-align: center;
-  margin: 20px 0;
+  margin: 20px auto;
   max-width: 300px;
-  margin: 0 auto;
 }
 
 img {
